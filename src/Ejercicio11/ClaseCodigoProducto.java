@@ -32,18 +32,9 @@ public class ClaseCodigoProducto {
 
             System.out.println("El código del producto es: " + codigo);
             //Recorrer un for para añadir un codigo que vaya aumentandose en 1 para cada producto
-            System.out.println("Desea ingresar un producto? s/n");
-            String respuesta = sc.nextLine();
-            productos.add(codigo);
-            if (respuesta.equals("n")) {
-                System.out.println("Los códigos de los productos son: ");
-                for (String producto : productos) {
-                    System.out.println(descripcion + " " +producto);
-                }
-                break;
 
 
-            }
+
 
 
         }

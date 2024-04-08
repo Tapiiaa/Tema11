@@ -1,0 +1,18 @@
+@startuml
+package Ejercicio11 {
+
+class ClaseCodigoProducto {
+    - static ArrayList<String> productos
+    - static int contador
+    + static String generaCodigo(String, String)
+    + static void metodoPrincipal()
+}
+
+class Main {
+    + static void main(String[])
+}
+
+Main .right.> ClaseCodigoProducto : Uses
+
+}
+@enduml

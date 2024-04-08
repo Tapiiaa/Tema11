@@ -1,5 +1,7 @@
 Tarea 11 Técnicas de Programación
-Link a mi repositorio: 
+-----------------------------------------
+Link a mi repositorio: https://github.com/Tapiiaa/Tema11.git
+-----------------------------------------------------------
 Realizado por: Pedro Alonso Tapia Lobo
 
 En este ejercicio interactivo se recrea un sistema gestor de productos. 

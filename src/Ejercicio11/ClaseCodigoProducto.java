@@ -37,6 +37,10 @@ public class ClaseCodigoProducto {
 
             System.out.println("¿Desea ingresar otro producto? (s/n)");
             String respuesta = sc.nextLine();
+            if(!respuesta.equalsIgnoreCase("s") && !respuesta.equalsIgnoreCase("n")) {
+                System.out.println("Respuesta inválida. Intente de nuevo.");
+                continue;
+            }
             if (respuesta.equalsIgnoreCase("n")) {
                 System.out.println("Códigos de los productos ingresados: ");
                 for (String producto : productos) {
